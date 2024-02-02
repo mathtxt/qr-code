@@ -10,23 +10,25 @@
 
 body{
     background-color: var(--cor-primaria);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.principal{
-    margin: 3% 38%;
-}
+
 
 .qr-code{
     display: flex;
-    flex-direction: column;
-    text-align: center;
+    flex-direction: column; 
     justify-content: center;
     padding: 9%;
     gap: 16px;
     width: 315px;
     height: 484px;
+    text-align: center;
     background-color: whitesmoke;
-    border-radius: 7%;
-    box-shadow: 6px 7px 13px -3px rgba(0,0,0,0.59);
+    border-radius: 3%;
+    box-shadow: 6px 7px 13px -3px rgba(0, 0, 0, 0.237);
 }
 
 .titulo-principal{
@@ -45,7 +47,6 @@ body{
 
 .imagem-principal{
     width: 272px;
-    border-radius: 10%;
     position: relative;
     right: 7px;
 }
